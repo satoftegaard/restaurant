@@ -8,8 +8,8 @@ class Layout extends Component {
   }
 
   render () {
-    return <div>
-      <h1>| |</h1>
+    return <div className='layout'>
+      <Link to='/'><h1>URBAN Creamery</h1></Link>
       <nav>
         <ul>
           <li>
@@ -30,7 +30,7 @@ class Layout extends Component {
         {this.props.children}
       </main>
       <footer>
-        <p>&copy; 2017 restaurant. Built with &hearts; at The Iron Yard, in St. Pete, FL.</p>
+        <p>&copy; 2017 URBAN Creamery.<br /> Built with &hearts; at The Iron Yard, in St. Pete, FL.</p>
       </footer>
     </div>
   }

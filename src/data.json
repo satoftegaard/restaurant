@@ -1,0 +1,111 @@
+  {
+    "locations": [
+      {
+        "slug": "st-pete",
+        "name": "Downtown St. Petersburg",
+        "address": "689 Central Avenue St. Petersburg , FL 33701",
+        "hours": [
+          { "days": "Mon-Fri", "hours": "11AM-7PM" },
+          { "days": "Sat", "hours": "11AM-12AM" },
+          { "days": "Sun", "hours": "CLOSED" }
+        ],
+        "mapPlaceId": "ChIJ2ckQoZzhwogR_sFtWCqwpWs"
+      }
+    ],
+  "menu": [
+    {
+      "name": "Waffles",
+      "slug": "waffles",
+      "items": [
+        {
+          "name": "Honey Graham Waffle",
+          "description": "Simple and Sweet – An old fashioned waffle with vanilla ice cream, honey drizzled on top with a dusting of graham cracker crumbs.",
+          "price": 450
+        },
+        {
+          "name": "Peanut Butter Cup",
+          "description": "Peanut butter chips hidden in the waffle with chocolate ice cream, whipped cream and salted peanuts.",
+          "price": 450
+        },
+        {
+          "name": "Banana Nutella",
+          "description": "Banana Plus Nutella? Yes Please! Vanilla ice cream on an old fashioned waffle with Nutella sauce drizzled over the top with fresh bananas",
+          "price": 450
+        },
+        {
+          "name": "Strawberries and Cream",
+          "description": "Fresh cut strawberries scattered about a tower of whipped cream resting on vanilla ice cream on top of a Belgian waffle.",
+          "price": 450
+        },
+        {
+          "name": "Peanut Caramel Crunch",
+          "description": "Peanut butter chips hidden in the waffle with chocolate ice cream, whipped cream and salted peanuts.",
+          "price": 450
+        },
+        {
+          "name": "Cookies and Cream",
+          "description": "Belgian waffle with vanilla & chocolate ice cream dressed with whipped cream and cookie crumbs.",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "slug": "icecream",
+      "items": [
+        {
+          "name": "Scoops",
+          "description": "We make our ice cream right here and our flavors are continually rotating and while we’ll do traditional flavors, we love the opportunity to experiment and expand the boundaries of ice cream.",
+          "price": 375
+        },
+        {
+          "name": "Sundaes",
+          "description": "Every Day is Sundae- Day! Select your choice of ice cream and any number of toppings to create the ultimate ice cream dish. 0.50 per topping.",
+          "price": 375
+        },
+        {
+          "name": "Milkshakes",
+          "description": "Our milkshakes are hand spun. 12oz & 20oz",
+          "price": 450
+        },
+        {
+          "name": "Waffle Cones / Bowl",
+          "description": "Our waffle cones are made from scratch with our own house recipe. We also make waffle bowls!",
+          "price": 550
+        },
+        {
+          "name": "Waffle Cones / Bowl",
+          "description": "Every Day is Sundae- Day! Select your choice of ice cream and any number of toppings to create the ultimate ice cream dish. 0.50 per topping.",
+          "price": 550
+        },
+        {
+          "name": "Banana Split",
+          "description": "Choose your own flavors and topping to create a delicious banana split!",
+          "price": 550
+        }
+      ]
+    },
+    {
+      "name": "Additional Toppings",
+      "slug": "toppings",
+      "items": [
+        {
+          "name": "Variety of toppings",
+          "description": "Sauce, syrup, sprinkles, chips, fruits and more!",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "name": "Specials",
+      "slug": "specials",
+      "items": [
+        {
+          "name": "Ice Cream for daysss",
+          "description": "Why not?",
+          "price": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,33 +1,28 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
+import data from '../data.json'
 
 class Menu extends Component {
 
   render () {
+    const categories = data.menu.map((category, i) => {
+      return <li key={i}>
+        <Link to={`/menu/${category.slug}`} activeClassName='active'>
+          {category.name}
+        </Link>
+      </li>
+    })
+
     return <div>
       <h2>Our Menu</h2>
 
-      <nav>
+      <section className='categories'>
         <ul>
-          <li>Appetizers</li>
-          <li>Entrees</li>
-          <li>Sides</li>
-          <li>Desert</li>
+          {categories}
         </ul>
-      </nav>
-
-      <section>
-        <h3>Appetizers</h3>
-
-        <table>
-          <tbody>
-            <tr>
-              <th>Spring Rolls</th>
-              <td>Yummy</td>
-              <td>$400</td>
-            </tr>
-          </tbody>
-        </table>
       </section>
+
+      {this.props.children}
     </div>
   }
 }
