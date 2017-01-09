@@ -1,14 +1,33 @@
 .contact {
   form {
     max-width: 400px;
+    margin-right: 0;
+    // align-items: center;
+    // justify-content: center;
 
     p label {
       display: block;
     }
 
+    button {
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #54c3c0;
+      width: 100px;
+      height: 35px;
+    }
+
     input,
     textarea {
       width: 100%;
+    }
+
+    form p {
+      color: black;
+    }
+
+    p {
+      color: black;
     }
   }
 }

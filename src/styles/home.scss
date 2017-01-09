@@ -1,0 +1,15 @@
+.home {
+  section {
+    img {
+      margin-top: 0;
+      // margin-left: auto;
+      visibility: inherit;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      overflow: hidden;
+    }
+  }
+}

@@ -3,13 +3,13 @@
       {
         "slug": "st-pete",
         "name": "Downtown St. Petersburg",
-        "address": "689 Central Avenue St. Petersburg , FL 33701",
+        "address": "689 Central Avenue St. Petersburg, FL 33701",
         "hours": [
           { "days": "Mon-Fri", "hours": "11AM-7PM" },
           { "days": "Sat", "hours": "11AM-12AM" },
           { "days": "Sun", "hours": "CLOSED" }
         ],
-        "mapPlaceId": "ChIJ2ckQoZzhwogR_sFtWCqwpWs"
+        "mapPlaceId": "ChIJ1ZTgXIHhwogRELr9sxno2dc"
       }
     ],
   "menu": [
@@ -101,9 +101,9 @@
       "slug": "specials",
       "items": [
         {
-          "name": "Ice Cream for daysss",
-          "description": "Why not?",
-          "price": 0
+          "name": "Icecream Social",
+          "description": "Check & follow our instagram for more details",
+          "price": 350
         }
       ]
     }

@@ -9,20 +9,22 @@ class Layout extends Component {
 
   render () {
     return <div className='layout'>
-      <Link to='/'><h1>URBAN Creamery</h1></Link>
       <nav>
-        <ul>
-          <li>
+        <ul className='logo'>
+          <li><Link to='/'><h1>URBAN Creamery</h1></Link></li>
+        </ul>
+        {/* <li>
             <Link to='/'>Home</Link>
+          </li> */}
+        <ul className='nav'>
+          <li>
+            <Link to='/menu'>MENU</Link>
           </li>
           <li>
-            <Link to='/menu'>Menu</Link>
+            <Link to='/contact'>CONTACT US</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact Us</Link>
-          </li>
-          <li>
-            <Link to='/locations'>Locations</Link>
+            <Link to='/locations'>LOCATIONS</Link>
           </li>
         </ul>
       </nav>
