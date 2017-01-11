@@ -10,7 +10,7 @@ body,
 }
 
 main {
-  width: 66vw;
+  // width: 66vw;
   flex: 1;
   margin: 1em auto;
   align-content: center;
@@ -20,40 +20,106 @@ main {
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: black;
-  font-size: 30px;
+  font-size: 25px;
+  position: relative;
+  padding: 0.5em;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 80px;
-  align-items: center;
+// mark {
+//   background-color: #54c3c0;
+//   color: black;
+// }
 
-  ul {
-    padding-left: 0;
-    list-style: none;
-    flex-direction: row;
-    font-family: 'helvetica', sans-serif;
-    font-size: 12px;
+.layout.home header {
+  background-image: url('https://github.com/satoftegaard/restaurant/blob/master/src/images/waffle.jpeg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+}
+
+.layout.menu header {
+  background-image: url('https://github.com/satoftegaard/restaurant/blob/master/src/images/food-ice-cream.jpg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 75vh;
+}
+
+.layout.menu.waffles header {
+  background-image: url('https://github.com/satoftegaard/restaurant/blob/master/src/images/waffle.jpeg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 75vh;
+}
+
+.layout.contact header {
+  background-image: url('http://urbancreamerystpete.com/wp-content/uploads/2016/10/urban-creamery-front.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 75vh;
+}
+
+.layout.locations header {
+  background-image: url('http://davidpricerealtor.com/wp-content/uploads/downtown-St-Pete-condos-1000x500.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 75vh;
+}
+
+.layout.orders header {
+  background-image: url('http://davidpricerealtor.com/wp-content/uploads/downtown-St-Pete-condos-1000x500.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 75vh;
+}
+
+header {
+  nav {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+    align-items: center;
+    background-color: hsla(0, 0, 100, 1);
+    position: fixed;
+    width: calc(100% - 40px);
 
-    li {
-      margin-top: 3em;
-      font-family: 'Montserrat', sans-serif;
-    }
+    ul {
+      padding-left: 0;
+      list-style: none;
+      flex-direction: row;
+      font-family: 'helvetica', sans-serif;
+      font-size: 12px;
+      display: flex;
 
-    &.logo li {
-      margin-right: 20px;
-      text-decoration: none;
-    }
+      li {
+        margin-top: 3em;
+        font-family: 'Montserrat', sans-serif;
+      }
 
-    &.nav li {
-      margin-left: 20px;
-      text-decoration: none;
-      font-size: 15px;
+      &.logo li {
+        margin-right: 20px;
+        text-decoration: none;
+      }
+
+      &.nav li {
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 15px;
+      }
     }
   }
 }
@@ -77,7 +143,8 @@ p {
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
   color: black;
   font-size: 60px;
   text-align: center;

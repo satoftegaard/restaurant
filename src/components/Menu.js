@@ -4,6 +4,12 @@ import data from '../data.json'
 
 class Menu extends Component {
 
+  componentDidMount () {
+    if (!this.props.params.slug) {
+      this.props.router.push('/menu/' + data.menu[0].slug)
+    }
+  }
+
   render () {
     const categories = data.menu.map((category, i) => {
       return <li key={i}>
